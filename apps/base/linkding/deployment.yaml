@@ -7,7 +7,7 @@ spec:
     fsGroup: 33 # www-data group ID
     runAsUser: 33 # www-data user ID
     runAsGroup: 33 # www-data group ID
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: linkding
