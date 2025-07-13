@@ -27,6 +27,6 @@ spec:
             - name: uptime-kuma-data
               mountPath: /app/data
       volumes:
-        - name: uptime-kuma-data-pvc
+        - name: uptime-kuma-data
           persistentVolumeClaim:
             claimName: uptime-kuma-data-pvc
