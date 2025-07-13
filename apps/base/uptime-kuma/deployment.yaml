@@ -12,17 +12,17 @@ spec:
       labels:
         app: uptime-kuma
     spec:
-    #  securityContext:
-     #   fsGroup: 1001 # www-data group ID
-    #    runAsUser: 1001 # www-data user ID
-   #     runAsGroup: 1001 # www-data group ID
+      securityContext:
+        fsGroup: 33 # www-data group ID
+        runAsUser: 33 # www-data user ID
+        runAsGroup: 33 # www-data group ID
       containers:
         - name: uptime-kuma
           image: elestio/uptime-kuma:1.23.15
           ports:
             - containerPort: 3001
-       #   securityContext:
-       #     allowPrivilegeEscalation: false
+          securityContext:
+            allowPrivilegeEscalation: false
           volumeMounts:
             - name: uptime-kuma-data
               mountPath: /app/data
