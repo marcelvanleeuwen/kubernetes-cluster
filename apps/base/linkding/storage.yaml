@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: linkding-data-pvc
 spec:
-  accessModus:
+  accessModes:
     - ReadWriteOnce
   resources:
     requests:
