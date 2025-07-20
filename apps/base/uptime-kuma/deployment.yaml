@@ -18,7 +18,7 @@ spec:
       #  runAsGroup: 1000 # www-data group ID
       containers:
         - name: uptime-kuma
-          image: elestio/uptime-kuma:1.23.16
+          image: elestio/uptime-kuma:2.0.0-beta.3
           ports:
             - containerPort: 3001
           securityContext:
