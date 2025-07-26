@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: uptime-kuma
-      version: "1.23.x"
+      version: "2.21.x"
 
       # version: "58.x"
 
