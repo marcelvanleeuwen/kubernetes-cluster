@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: linkding
-      version: "1.41.x"
+      version: "2.2.x"
 
       # version: "58.x"
 
