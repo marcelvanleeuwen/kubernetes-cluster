@@ -43,13 +43,13 @@ spec:
 
   ## Annotations for Grafana Ingress
   ##
-  annotations: {}
+  #annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
 
   ## Labels to be added to the Ingress
   ##
-  labels: {}
+  #labels: {}
 
   ## Hostnames.
   ## Must be provided if Ingress is enable.
@@ -65,7 +65,7 @@ spec:
   ## TLS configuration for grafana Ingress
   ## Secret must be manually created in the namespace
   ##
-  tls: []
+  #tls: []
   # - secretName: grafana-general-tls
   #   hosts:
   #   - grafana.example.com
