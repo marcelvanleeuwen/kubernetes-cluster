@@ -1,6 +1,7 @@
 apiVersion: v1
 data:
-    RENOVATE_TOKEN: ENC[AES256_GCM,data:fizUvvoU90OR81o7v356NNhw72Mc/152TUJw+U8HAdAerhYk4fUBwUoMcGt98Ivi/WOeYJ7ODkycARAWCDdgjiDuUbX5Kh9ug0VyBWNIpP/rz4+/,iv:DrHbbHUoWR5MRE3MH3WNmZXCfLt0VWu4xrxj1QSqyUk=,tag:XTzMLNRg44Q2TsOIymtOHw==,type:str]
+    RENOVATE_TOKEN: ENC[AES256_GCM,data:UyqVCSzV7AKtbZAysA1wncl/o5bnVlLck5hfQMehI/NW09NaeDGN7Kot5Q1CIzIeH/rKfCVk0ng=,iv:cPTlhG3ufqgjdwoS0ufgwxRdCICN3hZygS5IpDPzXn0=,tag:KGgXJHyKILhUbOY9iSuBzg==,type:str]
+    password: ENC[AES256_GCM,data:3EDGuB5cZxU=,iv:mLlhFBcbVTOuMYcpHTBFZ9JMpHgfZHQPjm/aqtex7HA=,tag:q8+HASu/vADsh9znDC/wBg==,type:str]
 kind: Secret
 metadata:
     creationTimestamp: null
@@ -10,13 +11,13 @@ sops:
         - recipient: age1zd7uc29r3kytkj3lxqn5l4tqy7jww5dha8vf77d0msfn63llkgxqrpu008
           enc: |
             -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA1L3g2cWY1NDdDcjVSQWlu
-            T244NHNmT0hrMDBOZWlHUEdZb3RrWVgzZnhjClBHK1NQM1d0UUphMVllRjhHVWto
-            RW9UTXQxUFNUTC9UeTJZSEFtdzk5cEEKLS0tIGJQUU5Od2RTY0VMZm5KM1pRV21J
-            bmJsZktxelhDemYxR3hzUVVEazYvY0kKo1XnJIUiPmo3qoSd/N6PQGOsyt0/kxzr
-            JUA2dtxxdlVrHBX2h9ixJXjsS0aodJv6rzHW+QLpWSoMUX3uMbd8fA==
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBVSGlMeXVCQXNnNHpnWDRS
+            amJZV01mSzBKTkVpeW9DZ0g5K2VOQThKaENrCmJ1KzAwY0FHcUo4S1hjS05QdTA1
+            MWl2RXpFSWNXaUhBczVRRmd3WXB5bVUKLS0tIFdNdnBuWkcxdmJZTjBaU3V3cXBU
+            Tlh5eXIvSlZrSERkR2tyZFhtSStQdTgKQI8CorSeEC1czO5qM11/Ai0gKrMHRBiT
+            nicPEXx24QbVAOL47NqmM5YIoHAQYRQNcrJgKi4zAzkpHYL3ueeVJA==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2025-08-03T09:24:40Z"
-    mac: ENC[AES256_GCM,data:7LNvcG5g3pjoTrbCaTXTwIWPsazl0LUEifoY7t1JEuJBGhiSewlS5LFR7wDGCKVkltOK/bYIWeROZGz/yTeAU9RIdyLuo4kSSthiKnA7Iji74tfUEdgvxsMneNRweIYfOXsw24M8/TxLGAUOR5dJu4RBL7iowQbjk1WXB+XAMLw=,iv:0ibxDFXCuEgxPAHLBaoQIqJzdfI5RRIjpL5TRgndJsM=,tag:pNxNVfoLRQB9DXSFhrF2PA==,type:str]
+    lastmodified: "2025-08-03T12:11:25Z"
+    mac: ENC[AES256_GCM,data:Bb7WXqRavXa/xPM8PV6bqi1Vt0L+YSwzJxENNyWRbhMBssSKDvLM5prNaJU4hzvYIIh7pC1d+XAK5jh/zI+mvXmcyAy2E24wCcI5TzU/UKM/KOyauDCvidXbZRI1zzZJgG0qCTIY7xbKHiVH4Z/I9fP2KU6l5oi/8xiZRoJpz6s=,iv:EPeslonJroNHLk93/qXrwkUANMQQQRQw7jabDpdBSbE=,tag:2McE+vL2NmI0AUplm82v8Q==,type:str]
     encrypted_regex: ^(data|stringData)$
     version: 3.10.2
