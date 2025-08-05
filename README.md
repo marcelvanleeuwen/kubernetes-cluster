@@ -1,4 +1,4 @@
-# My Kubernetes Homelab.
+# My Kubernetes Cluster.
 
 ![Kubernetes](images/Kubernetes-logo.png)
 
@@ -16,8 +16,6 @@ A homelab is a great place to build, break, and fix things and to keep learning.
 <br>
 <br>
 [Install Kubernetes bare metal](install_kubernetes.md)
-
-[Connect old k8s-worker to new control plane](tips_tricks.md)
 
 [Cheat sheet](cheat_sheet.md)
 
