@@ -16,7 +16,7 @@ spec:
         kind: HelmRepository
         name: linkding
         namespace: linkding
-  #    interval: 12h
+      interval: 12h
  # install:
   #  crds: Create
   #  upgrade:
