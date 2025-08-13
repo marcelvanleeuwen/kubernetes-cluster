@@ -1,0 +1,27 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: csi-driver-nfs
+  namespace: storage
+spec:
+  interval: 30m
+  chart:
+    spec:
+      chart: csi-driver-nfs
+      version: "4.11.x"
+
+      # version: "58.x"
+
+      sourceRef:
+        kind: HelmRepository
+        name: csi-driver-nfs
+        namespace: storage
+      interval: 12h
+    values:
+      controller:
+        replicas: 1
+        runOnControlPlane: true
+      externalSnapshotter:
+        enabled: true
+        customResourceDefinitions:
+          enabled: false
