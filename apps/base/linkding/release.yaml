@@ -9,15 +9,15 @@ spec:
     spec:
       chart: linkding
       version: "2.2.x"
-
-      # version: "58.x"
-
       sourceRef:
         kind: HelmRepository
         name: linkding
         namespace: linkding
-      interval: 12h
- # install:
+      interval: 24h
+  drifrDetection:
+    mode: enabled
+
+      # install:
   #  crds: Create
   #  upgrade:
   #  crds: CreateReplace
