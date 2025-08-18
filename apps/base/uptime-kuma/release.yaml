@@ -16,7 +16,10 @@ spec:
         kind: HelmRepository
         name: uptime-kuma
         namespace: uptime-kuma
-      interval: 12h
+      interval: 24h
+  driftDetection:
+    mode: enabled
+
  # install:
   #  crds: Create
 #  upgrade:
