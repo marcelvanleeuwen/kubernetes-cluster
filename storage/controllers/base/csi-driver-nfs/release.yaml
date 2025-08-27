@@ -14,3 +14,7 @@ spec:
         name: csi-driver-nfs-repo
       version: 4.11.0
   interval: 24h
+  values:
+    nfs:
+      server: unas-pro.prod.lionux.lan
+      path: /var/nfs/shared/k8s-storage
