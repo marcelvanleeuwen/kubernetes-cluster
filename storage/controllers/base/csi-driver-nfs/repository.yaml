@@ -5,5 +5,5 @@ metadata:
   name: csi-driver-nfs
   namespace: nfs-system
 spec:
-  interval: 24h
+  interval: 12h
   url: https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/master/charts
