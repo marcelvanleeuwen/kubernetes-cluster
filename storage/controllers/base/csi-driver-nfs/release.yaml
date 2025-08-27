@@ -2,15 +2,15 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: longhorn-release
-  namespace: longhorn-system
+  name: csi-driver-nfs
+  namespace: nfs-system
 spec:
   chart:
     spec:
-      chart: longhorn
+      chart: csi-driver-nfs
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: longhorn-repo
-      version: v1.9.1
-  interval: 1m0s
+        name: csi-driver-nfs-repo
+      version: 4.11.0
+  interval: 24h
