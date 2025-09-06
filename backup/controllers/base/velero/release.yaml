@@ -14,5 +14,3 @@ spec:
         kind: HelmRepository
         name: vmware-tanzu
         namespace: velero-system
-  install:
-    createNamespace: true
